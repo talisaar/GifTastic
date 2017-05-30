@@ -94,6 +94,10 @@ var statusarray = [];
 
         // Calling renderButtons which handles the processing of our movie array
         renderButtons();
+
+        $('#animal-input').val('');
+
+
       });
 
       // Adding a click event listener to all elements with a class of "movie"
